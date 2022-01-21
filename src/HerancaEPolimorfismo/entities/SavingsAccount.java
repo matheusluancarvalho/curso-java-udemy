@@ -1,6 +1,7 @@
 package HerancaEPolimorfismo.entities;
 
 public class SavingsAccount extends Account {
+// Quando se coloca o final, significa que a classe n pode ser herdada
 
     private Double interestRate;
 
@@ -32,7 +33,7 @@ public class SavingsAccount extends Account {
     }
 
     @Override
-    public void withdraw(double amount) {
+    public final void withdraw(double amount) {
         balance -= amount;
     }
 
