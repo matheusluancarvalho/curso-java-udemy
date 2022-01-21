@@ -38,5 +38,21 @@ public class Program {
             System.out.println("Update!");
         }
 
+        //----------------------------------@Override--------------------------------------------
+
+        Account acc6 = new Account(1007, "Cebolinha", 1000.00);
+        acc6.withdraw(200.00);
+        System.out.println("Balance: " + acc6.getBalance());
+
+        Account acc7 = new SavingsAccount(1008, "Pica Pau",
+                1000.00, 0.01);
+        acc7.withdraw(200.00);
+        System.out.println("SavingAccount Balance: " + acc7.getBalance());
+
+        Account acc8 = new BusinessAccount(1009, "Patolino",
+                1000.00, 500.00);
+        acc8.withdraw(200.00);
+        System.out.println("Patolino seu saldo é de: R$ " + acc8.getBalance());
+
     }
 }
