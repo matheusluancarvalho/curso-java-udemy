@@ -1,7 +1,6 @@
-package HerancaEPolimorfismo.entities;
+package HerancaEPolimorfismo.ClassesAbstratas.Entities;
 
-public class BusinessAccount  extends Account{
-
+public class BusinessAccount extends Account{
     private Double loanLimit;
 
     //-----------------------------------Construtor--------------------------------------------

@@ -1,4 +1,4 @@
-package HerancaEPolimorfismo.entities;
+package HerancaEPolimorfismo.Fundamento.entities;
 
 public class SavingsAccount extends Account {
 // Quando se coloca o final, significa que a classe n pode ser herdada

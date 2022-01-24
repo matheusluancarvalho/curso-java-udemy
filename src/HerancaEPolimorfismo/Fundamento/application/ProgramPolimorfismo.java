@@ -1,7 +1,7 @@
-package HerancaEPolimorfismo.application;
+package HerancaEPolimorfismo.Fundamento.application;
 
-import HerancaEPolimorfismo.entities.Account;
-import HerancaEPolimorfismo.entities.SavingsAccount;
+import HerancaEPolimorfismo.Fundamento.entities.Account;
+import HerancaEPolimorfismo.Fundamento.entities.SavingsAccount;
 
 public class ProgramPolimorfismo {
     public static void main(String[] args) {
