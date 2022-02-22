@@ -1,4 +1,4 @@
-package TratamentoDeExcecoes.Application.Solucao1.Model.Entities;
+package TratamentoDeExcecoes.Solucao1.Model.Entities;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

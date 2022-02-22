@@ -1,4 +1,4 @@
-package TratamentoDeExcecoes.Application;
+package TratamentoDeExcecoes;
 
 import java.io.File;
 import java.io.FileNotFoundException;
