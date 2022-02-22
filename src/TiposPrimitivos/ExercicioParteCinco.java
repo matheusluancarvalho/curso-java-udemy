@@ -12,6 +12,7 @@ Crie variáveis para os campos descritos abaixo entre <> e imprima a seguinte me
 Eu <nome>, morando no endereço <endereço>, confirmo que
 recebi o salário de <salario>, na data <data>
 
+
 */
         String nome = "Matheus Luan";
         String endereco = "Rua do Limoeiro";
