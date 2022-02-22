@@ -48,7 +48,6 @@ public class ParteUmAoQuatro {
         System.out.println("Oi, meu nome é: " + strings);
 
 
-
         // Fazendo Casting
 
         int tamanho = (int) 1000000000000L;
